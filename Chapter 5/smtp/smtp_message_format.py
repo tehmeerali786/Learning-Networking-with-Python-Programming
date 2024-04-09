@@ -3,11 +3,11 @@ import smtplib
 from email.mime.text import MIMEText 
 from email.header import Header 
 
-sender = 'ali786467@hotmail.com'
-receiver = 'freelanceali786@gmail.com'
+sender = ''
+receiver = ''
 
 mail_host = 'smtp-mail.outlook.com'
-user = 'ali786467@hotmail.com'
+user = ''
 password = getpass.getpass("Enter password: ")
 
 message = MIMEText('Python Programming', 'plain')

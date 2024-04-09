@@ -8,8 +8,8 @@ from email.header import Header
 mail_host = "smtp-mail.outlook.com"
 port = 587
 
-sender = 'ali786467@hotmail.com'
-receiver = 'freelanceali786@gmail.com'
+sender = ''
+receiver = ''
 password = ''
 
 message = MIMEMultipart()
